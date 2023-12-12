@@ -1,0 +1,33 @@
+.blog-banner{
+    background: rgb(87,124,255);
+    background: linear-gradient(135deg, rgba(87,124,255,1) 0%, rgba(240,248,255,1) 100%);
+    text-align: center;
+    color: #577CFF;
+    padding: 40px 0;
+}
+.blog-content{
+    width: 50%;
+    text-align: center;
+    margin: 25px auto;
+    color: #6C8DFF;
+}
+
+.b-card .card-img-top{
+    border-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.b-card{
+    width: 400px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+.blog-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.b-card-body{
+    padding: 0 15px;
+}

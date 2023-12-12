@@ -1,0 +1,33 @@
+.jad-banner{
+    background: rgb(87,124,255);
+    background: linear-gradient(135deg, rgba(87,124,255,1) 0%, rgba(240,248,255,1) 100%);
+    text-align: center;
+    color: #577CFF;
+    padding: 40px 0;
+}
+.jad-content{
+    width: 50%;
+    text-align: center;
+    margin: 25px auto;
+    color: #6C8DFF;
+}
+.jad-form{
+    width: 40%;
+    margin: 40px auto;
+}
+.inp-box{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.inp-box input,
+.inp-box select{
+    height: 40px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.inp-box button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}

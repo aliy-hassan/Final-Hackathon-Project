@@ -1,0 +1,33 @@
+.navigation{
+    background: #577CFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation h2{
+    color: #fff;
+}
+.navigation h2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.navBar li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.bookBtn{
+    background: #fff;
+    color: #577CFF!important;
+}
+.joinBtn{
+    border: 1px solid #fff;
+    margin-left: 10px;
+}

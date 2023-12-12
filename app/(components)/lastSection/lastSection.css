@@ -1,0 +1,43 @@
+.LastSection{
+    height: 95vh;
+}
+.LastSection .innerSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: aliceblue;
+}
+.secLeft,
+.secRight{
+    width: 30%;
+    height: 95vh;
+    /* height: 80vh; */
+}
+.LastSection .secRight{
+    background-image: url('../../assets/images/social.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70%;
+}
+.secLeft{
+    display: flex;
+    align-items: center;
+}
+.secLeft p{
+    color: gray;
+}
+.secLeft h2{
+    font-size: 28px;
+    color: #577CFF;
+}
+.secLeft .content{
+    width: 100%;
+}
+.secLeft button{
+    padding: 10px 20px;
+    border: none;
+    background: #577CFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
